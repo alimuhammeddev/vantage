@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   robots: { index: false, follow: false },
+  icons: { icon: "/icon.svg" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
